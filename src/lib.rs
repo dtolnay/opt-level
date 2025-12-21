@@ -49,6 +49,7 @@
 //! ```
 
 #![no_std]
+#![doc(html_root_url = "https://docs.rs/opt-level/0.0.0")]
 #![allow(clippy::test_attr_in_doctest)]
 
 pub const OPT_LEVEL: &str = include_str!(concat!(env!("OUT_DIR"), "/opt-level"));
