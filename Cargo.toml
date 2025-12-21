@@ -14,5 +14,6 @@ rust-version = "1.68"
 targets = ["x86_64-unknown-linux-gnu"]
 rustdoc-args = [
     "--generate-link-to-definition",
+    "--generate-macro-expansion",
     "--extern-html-root-url=core=https://doc.rust-lang.org",
 ]
