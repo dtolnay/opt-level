@@ -1,4 +1,11 @@
 [package]
 name = "opt-level"
 version = "0.0.0"
-edition = "2024"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+categories = ["no-std", "no-std::no-alloc"]
+description = "Get value of rustc `-Copt-level=` flag"
+documentation = "https://docs.rs/opt-level"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dtolnay/opt-level"
+rust-version = "1.68"
