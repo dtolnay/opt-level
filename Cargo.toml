@@ -1,6 +1,6 @@
 [package]
 name = "opt-level"
-version = "0.0.0"
+version = "1.0.0"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 categories = ["no-std", "no-std::no-alloc"]
 description = "Get value of rustc `-Copt-level=` flag"
