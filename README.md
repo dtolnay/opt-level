@@ -1,4 +1,4 @@
-# `opt_level::OPT_LEVEL`
+# opt\_level::OPT\_LEVEL
 
 [<img alt="github" src="https://img.shields.io/badge/github-dtolnay/opt--level-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/dtolnay/opt-level)
 [<img alt="crates.io" src="https://img.shields.io/crates/v/opt-level.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/opt-level)
@@ -12,14 +12,12 @@ Useful for sizing tests to run fewer iterations in slow build modes.
 According to <https://doc.rust-lang.org/cargo/reference/profiles.html#opt-level>
 the possible values are:
 
-- `0`: no optimizations
-- `1`: basic optimizations
-- `2`: some optimizations
-- `3`: all optimizations
-- `s`: optimize for binary size
-- `z`: optimize for binary size, but also turn off loop vectorization
-
-<br>
+- **0**: no optimizations
+- **1**: basic optimizations
+- **2**: some optimizations
+- **3**: all optimizations
+- **s**: optimize for binary size
+- **z**: optimize for binary size, but also turn off loop vectorization
 
 ## Example
 
