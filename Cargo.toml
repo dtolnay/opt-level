@@ -10,6 +10,9 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/dtolnay/opt-level"
 rust-version = "1.68"
 
+[dev-dependencies]
+rand = "0.9"
+
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
 rustdoc-args = [
