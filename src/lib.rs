@@ -49,5 +49,6 @@
 //! ```
 
 #![no_std]
+#![allow(clippy::test_attr_in_doctest)]
 
 pub const OPT_LEVEL: &str = include_str!(concat!(env!("OUT_DIR"), "/opt-level"));
