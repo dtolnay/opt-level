@@ -28,7 +28,7 @@ use rand::{RngCore as _, SeedableRng as _};
 const N: usize = if cfg!(miri) {
     500
 } else if let b"0" = opt_level::OPT_LEVEL.as_bytes() {
-    10_000
+    1_000_000
 } else {
     100_000_000
 };
