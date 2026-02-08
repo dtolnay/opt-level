@@ -23,8 +23,8 @@
 //! # Example
 //!
 //! ```
-//! use rand::rngs::SmallRng;
-//! use rand::{RngCore as _, SeedableRng as _};
+//! use rand::rngs::{SmallRng, SysRng};
+//! use rand::{Rng as _, SeedableRng as _};
 //!
 //! const N: usize = if cfg!(miri) {
 //!     500
@@ -36,7 +36,7 @@
 //!
 //! #[test]
 //! fn random_test() {
-//!     let mut rng = SmallRng::from_os_rng();
+//!     let mut rng = SmallRng::try_from_rng(&mut SysRng).unwrap();
 //!
 //!     for _ in 0..N {
 //!         let bits = rng.next_u64();
