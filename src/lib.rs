@@ -34,7 +34,9 @@
 //!     100_000_000
 //! };
 //!
+//! # const _: &str = stringify! {
 //! #[test]
+//! # };
 //! fn random_test() {
 //!     let mut rng = SmallRng::try_from_rng(&mut SysRng).unwrap();
 //!
